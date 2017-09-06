@@ -7,6 +7,8 @@ import registerServiceWorker from './registerServiceWorker';
 //will be required instead of react.createClass
 var createReactClass = require('create-react-class');
 
+//you want to write statless compoents
+
 var CountMe = createReactClass({
   increment: function() {
   	this.refs.counter.increment();
